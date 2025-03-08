@@ -30,7 +30,6 @@ twitter_username: jekyllrb
 github_username:  thetombrider
 
 # Build settings
-theme: no-style-please
 theme: minima
 plugins:
   - jekyll-feed
