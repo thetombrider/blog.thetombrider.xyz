@@ -18,12 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Tommaso Minuto
-email: tommasominuto@gmail.com
 description: >- # questo simbolo indica un blocco di testo multi-riga
   Innovation Consultant at Cefriel.
   Here is where I share my learnings on technology, innovation and business.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blog.thetombrider.xyz" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: tommaso-minuto
 github_username:  thetombrider
 
