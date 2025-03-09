@@ -253,3 +253,30 @@
     }
   }
 }
+
+.post-navigation {
+  margin-top: $spacing-unit;
+  padding-top: $spacing-unit;
+  border-top: 1px solid $grey-color-light;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-previous, .nav-next {
+  font-size: $small-font-size;
+}
+
+.nav-previous a, .nav-next a {
+  color: $brand-color;
+  text-decoration: none;
+}
+
+.nav-previous a:hover, .nav-next a:hover {
+  text-decoration: underline;
+}
