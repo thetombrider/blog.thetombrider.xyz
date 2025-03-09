@@ -1,4 +1,3 @@
-md
 ---
 layout: page
 title: Tags
