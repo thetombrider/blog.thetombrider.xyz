@@ -39,9 +39,10 @@ header_pages:
   - archive.md
 
 # Build settings
-theme: minima
 plugins:
+  - jekyll-seo-tag
   - jekyll-feed
+  - jekyll-sitemap
 
 collections:
   posts:
