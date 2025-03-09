@@ -35,8 +35,9 @@ show_excerpts: false                    # Mostra excerpt dei post
 #google_analytics: UA-XXXXXXXX-X        # ID Google Analytics
 header_pages:
   - about.md
-  - archive.md
+  - categories.md
   - tags.md
+  - archive.md
 
 # Build settings
 theme: minima
