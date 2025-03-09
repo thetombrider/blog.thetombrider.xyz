@@ -24,7 +24,7 @@ description: >- # questo simbolo indica un blocco di testo multi-riga
   Here is where I share my learnings on technology, innovation and business.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-linkedin_username: tommasominuto
+linkedin_username: tommaso-minuto
 github_username:  thetombrider
 
 # Configurazione blog
@@ -33,6 +33,10 @@ timezone: Europe/Rome                  # Fuso orario
 date_format: "%d-%m-%Y"               # Formato date
 show_excerpts: false                    # Mostra excerpt dei post
 #google_analytics: UA-XXXXXXXX-X        # ID Google Analytics
+header_pages:
+  - about.md
+  - archive.md
+  - tags.md
 
 # Build settings
 theme: minima
