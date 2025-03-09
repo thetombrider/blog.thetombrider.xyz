@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Su di me
+title: About
 permalink: /about/
 ---
 
