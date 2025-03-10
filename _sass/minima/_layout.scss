@@ -231,7 +231,6 @@ ul {
   letter-spacing: -1px;
   line-height: 1;
   text-align: left;
-  // border-bottom: 2px solid $brand-color; // Remove underline
 
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
@@ -241,7 +240,6 @@ ul {
 .home .post-title {
   @include relative-font-size(2);
   text-align: left;
-  // border-bottom: 2px solid $brand-color; // Remove underline
 }
 
 .post-content {
@@ -273,6 +271,19 @@ ul {
 
     @include media-query($on-laptop) {
       @include relative-font-size(1.125);
+    }
+  }
+
+  ul, ol {
+    margin-left: $spacing-unit;
+    list-style-position: outside;
+  }
+
+  li {
+    margin-bottom: $spacing-unit * 0.25; // Adjust this value to reduce the spacing
+    > ul,
+    > ol {
+      margin-bottom: 0;
     }
   }
 }
