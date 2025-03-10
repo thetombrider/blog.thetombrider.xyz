@@ -9,6 +9,14 @@ layout: default
 
   {{ content }}
 
+  <!-- Add the quote section here -->
+  <div class="quote-callout">
+    <blockquote>
+      "What you don't have you don't need it now."
+      <footer>- U2</footer>
+    </blockquote>
+  </div>
+
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
