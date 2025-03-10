@@ -4,17 +4,15 @@ title: Startup Ideas
 permalink: /startups/
 ---
 
-- erp for non-profit or other software to digitize third sector operations. to understand willingness to pay of the third sector (to be segmented obviously between small medium large)
+- erp for non-profit or other software to digitize third sector operations.
 
 - equity management platform like carta.com that allows you to do fundraising with safe and priced round from the notary completely digitally or even integrating with crowdfunding and allows you to set up the company if you need it (like lexdo perhaps integrating with them)
 
-- web app saas of personal finance that allows you to monitor your finances make projections etc integrating with real time current account data (maybe even integrate with brokers to automate investments) - competitor spendee missing 2fa and missing transfers between accounts - missing automatic reconciliation of reimbursements from friends when you advance money.
+- web app saas personal finance that allows you to monitor your finances make projections etc integrating with real time current account data (maybe even integrate with brokers to automate investments) - competitor spendee missing 2fa and missing transfers between accounts - missing automatic reconciliation of reimbursements from friends when you advance money. - DONE BY KLEAR FINANCE
 
-- platform to find independent financial advisor. habits.inc exists in the US world and uelt.io in Italy but I think it closed because the site is down. at the moment this search is done for acquaintances and there is no transparency. for italy it could become something like fiscozen where the customer registers, we assign them a partner consultant, they pay a fee to us and we pass it on to the consultant, removing the crest (they pay the fee plus the brokerage fee). we need to understand if the pain is only the matching or also the inefficiency of the customer experience as in the case of old-fashioned accountants (fiscozen solves that) - fiscozen of financial consultancy - it can also be done like habits which monetizes the fin advisor side and sells it as an acquisition channel for fin advisors. you can also think about doing it on a subscription basis on the end user side. we also need to understand pricing because I have the feeling that young people would like a financial advisor but it is too expensive - hear gian and ele to understand how much they pay
+- platform to find independent financial advisor. habits.inc exists in the US world and uelt.io in Italy but I think it closed because the site is down. at the moment this search is done for acquaintances and there is no transparency. for italy it could become something like fiscozen where the customer registers, we assign them a partner consultant, they pay a fee to us and we pass it on to the consultant, removing the crest (they pay the fee plus the brokerage fee). we need to understand if the pain is only the matching or also the inefficiency of the customer experience as in the case of old-fashioned accountants (fiscozen solves that) - fiscozen of financial consultancy - it can also be done like habits which monetizes the fin advisor side and sells it as an acquisition channel for fin advisors. you can also think about doing it on a subscription basis on the end user side. we also need to understand pricing because I have the feeling that young people would like a financial advisor but it is too expensive
 
 - escrow company for rental contracts that holds the deposits on behalf of the tenant and landlord
-
-- spaces to explore
 
 - digitalization of the third sector
 
@@ -44,8 +42,8 @@ offer either low and fixed interest without a lump sum lock not on specific capi
 
 - market research database improved with ai that goes beyond ateco codes and solves all the inefficiencies of market research as is
 
-- management for condominiums
-thousandths management, convening and recording meetings, payments to the administrator
+- management for apartment complexes
+cost management, convening and recording meetings, payments to the administrator
 
 - intersections between blockchain and logistics
 
@@ -79,9 +77,5 @@ platform that allows anyone to test their side hustle without opening a VAT numb
 - peer to peer mortgages?
 
 - book sharing platform: users can lend and borrow books from other users. online catalog that tells which user owns which book and where it is located, allows you to find copies of the book near you to borrow it.
-you have to lend 1 book to borrow one. it already exists, it's called acciobooks in Italy but it doesn't provide for the return of books but it provides the pro version with unlimited books
-
-- I would like something more similar to book crossing where the exchange is peer to peer with return
-
-- in the case of a centralized platform you could think of a model where users can send and take books and it's free as long as the number of books sent is equal to or greater (in that case you have credits) than those requested. you can go under by paying a subscription.
+you have to lend 1 book to borrow one. it already exists, it's called acciobooks in Italy but it doesn't provide for the return of books but it provides the pro version with unlimited books - I would like something more similar to book crossing where the exchange is peer to peer with return - in the case of a centralized platform you could think of a model where users can send and take books and it's free as long as the number of books sent is equal to or greater (in that case you have credits) than those requested. you can go under by paying a subscription.
 monetization: ads on the site, affiliate links to encourage book purchases on amazon or other bookstores, subscriptions
