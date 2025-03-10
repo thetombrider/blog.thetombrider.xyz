@@ -221,6 +221,7 @@
   letter-spacing: -1px;
   line-height: 1;
   text-align: left;
+  border-bottom: 2px solid $brand-color; // Add underline
 
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
@@ -230,6 +231,7 @@
 .home .post-title {
   @include relative-font-size(2);
   text-align: left;
+  border-bottom: 2px solid $brand-color; // Add underline
 }
 
 .post-content {
