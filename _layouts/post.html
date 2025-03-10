@@ -15,11 +15,11 @@ layout: default
       {%- endif -%}
     </p>
     <p class="post-tags">
-      Categories: <a href="{{ '/categories/' | append: page.categories | relative_url }}">{{ page.categories | join: ', ' }}</a>
+      Categories: <a href="{{ '/categories/#' | append: page.categories[0] | relative_url }}">{{ page.categories | join: ', ' }}</a>
       <br>
       Tags: 
       {%- for tag in page.tags -%}
-        <a href="{{ '/tags/' | append: tag | relative_url }}"> #{{ tag }}</a>{% if forloop.last == false %}, {% endif %}
+        <a href="{{ '/tags/#' | append: tag | relative_url }}"> #{{ tag }}</a>{% if forloop.last == false %}, {% endif %}
       {%- endfor -%}
     </p>
   </header>
