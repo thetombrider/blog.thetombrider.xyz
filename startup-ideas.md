@@ -4,6 +4,10 @@ title: Startup Ideas
 permalink: /startups/
 ---
 
+> *Note: just like me, this page is a living document. It won't probably be the same for more than 15 days in a row.*
+
+**Braindump of Startup Ideas**
+
 - erp for non-profit or other software to digitize third sector operations.
 
 - equity management platform like carta.com that allows you to do fundraising with safe and priced round from the notary completely digitally or even integrating with crowdfunding and allows you to set up the company if you need it (like lexdo perhaps integrating with them)
