@@ -7,19 +7,20 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
-  <!-- Add the simplified quote section here -->
-  <div class="quote">
+  {{ content }}
+
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <span> - {{ post.date | date: "%B %d, %Y" }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+  
+   <!-- Add the simplified quote section here -->
+   <div class="quote">
     "What you don't have you don't need it now."
   </div>
 
-  {{ content }}
-
-  <ul class="post-list">
-    {%- for post in site.posts -%}
-    <li>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      <span> - {{ post.date | date: "%B %d, %Y" }}</span>
-    </li>
-    {%- endfor -%}
-  </ul>
 </div>
