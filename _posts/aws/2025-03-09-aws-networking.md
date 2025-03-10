@@ -10,15 +10,15 @@ AWS is made of a ton of different services and resources. These resources need t
 
 So, how does AWS Networking actually work?
 
-AWS resources talk to each other through VPCs, Virtual Private Clouds.
+AWS resources talk to each other through VPCs, **Virtual Private Clouds**.
 
 These are virtual networks that connect resources together and are defined by defining an IP range, a list of IP addresses, using CIDR notation.
 
 When starting a new account on AWS, a default VPC is provided. This VPC is okay to get started but makes EVERYTHING publicly accessible by default, so it probably isn't the best solution. 
 
-VPCs can be easily created in the AWS console and can be divided into Subnets, which are subsets of the VPC itself. 
+VPCs can be easily created in the AWS console and can be divided into **Subnets**, which are subsets of the VPC itself. 
 
-Subnets are defined by IP ranges, which are lists of IP addresses, which must be subsets of the IP range of the VPC (since these subnets are inside the VPC it makes sense that they include only IP addresses that are already in the VPC, like a russian matrioska).
+Subnets are defined by **IP ranges**, which are lists of IP addresses, which must be subsets of the IP range of the VPC (since these subnets are inside the VPC it makes sense that they include only IP addresses that are already in the VPC, like a russian matrioska).
 
 When creating a new VPC, it is not accessible via the internet by default.
 

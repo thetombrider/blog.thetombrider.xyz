@@ -8,13 +8,13 @@ tags: [cloud, computing]
 
 AWS has got many different compute options:
 
-- EC2 or Elastic Compute Cloud: this is the VM offering of AWS. VMs are virtual computers running in the cloud. Basically like running a server at home, but with the benefits of the cloud: scalability, availability, low overhead, no maintenance, and pay-as-you-go pricing. 
+- **EC2 or Elastic Compute Cloud**: this is the VM offering of AWS. VMs are virtual computers running in the cloud. Basically like running a server at home, but with the benefits of the cloud: scalability, availability, low overhead, no maintenance, and pay-as-you-go pricing. 
 
-- Container Services: ECS and EKS. These are services to run Docker containers on AWS. 
+- **Container Services: ECS and EKS**. These are services to run Docker containers on AWS. 
     - With ECS the containers run on a cluster of EC2 instances (VMs), for which the user is responsible for provisioning, 
     - with EKS they run on a Kubernetes cluster, managed by AWS.
     
-- Serverless: Fargate, Lambda. 
+- **Serverless: Fargate, Lambda**. 
 
     Serverless is a type of service where the user only has to maintain the application and everything else is managed by AWS, from the OS up all the way to updates, patches, scalability, availability, and so on.
 
@@ -24,8 +24,8 @@ AWS has got many different compute options:
     
     With serverless this is turned on its head and the resources are only used (and paid for) when the app is called for by the user (i.e when the user visits the app url).
 
-     - Fargate is a serverless container service completely managed by AWS: choose the container and deploy it. That's it. It works with both ECS and EKS and basically sits on top of it handling the provisioning and scaling of the EC2 instances (for ECS) and cluster (for EKS).
+     - **Fargate** is a serverless container service completely managed by AWS: choose the container and deploy it. That's it. It works with both ECS and EKS and basically sits on top of it handling the provisioning and scaling of the EC2 instances (for ECS) and cluster (for EKS).
 
-     - Lambda is a serverless compute service: upload the code and it will run every time it is called, but not when it isn't. This is a great choice for services that need to run only when certain things happen (for example: "resize an image when the user uploads it").
+     - **Lambda** is a serverless compute service: upload the code and it will run every time it is called, but not when it isn't. This is a great choice for services that need to run only when certain things happen (for example: "resize an image when the user uploads it").
 
 This is just a brief overview. I'll maybe go into more detail in later posts.

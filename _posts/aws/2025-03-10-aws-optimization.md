@@ -14,7 +14,7 @@ To solve these two problems we have two solutions:
 
 - For redirection to access the different instances we need something better that the different IP addresses as this does not allow us to handle the dynamic spin-up and spin-down of our instances. Instead, we need to use a Elastic Load Balancer.
 
-## **Elastic Load Balancing**
+### **Elastic Load Balancing**
 
 The ELB sits between the Internet Gateway and the subnets inside our VPC.
 
@@ -46,11 +46,24 @@ There's different load balancers available:
     - operates on layer 3 and 4 of the OSI model.
 
 
-## **Amazon EC2 Auto Scaling**
+### **Amazon EC2 Auto Scaling**
 
 Auto Scaling allows to automatically add and remove EC2 instances using user-defined scaling policies.
 
 Auto Scaling is especially useful if we are using a horizontal scaling approach, meaning we deploy more identical instances to meet demand. Vertical scaling on the other side means increasing instance size of the one instance running the app. The vertical approach has an upper limit, the horizontal limit doesn't.
+
+Auto Scaling has 3 main components:
+- **Launch Template or Configuration**: configure all the parameters needed to define the EC2 instances that are going to be deployed (AMI, instance type, security group, volumes, etc). Launch templates support versioning.
+
+- **Auto Scaling Group**: used to define where Auto Scaling deploys resources. Here users specify VPCs and subnets where the instances are going to be launched. Here the user can also decide whether to use On-Demand or Spot instances.
+
+- **Scaling policies**: there are 3 types of scaling policies:
+
+    - **Simple Scaling Policy**: use a CloudWatch alarm to add or remove instances. Only has one step, meaning it can only have one condition like "if CPU utilization is above 65%, add X instances".
+    
+    - **Step Scaling Policy**: same as above but has multiple steps like "if CPU utilization is above 65% add X instances and if above 85% add 2X instances".
+
+    - **Target Tracking Scaling Policy**: scales instances based on a target value of a specified metric, for example average CPU utilization and deploys or spins down instances to follow the specified target metric. 
 
 
 
