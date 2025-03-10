@@ -38,6 +38,7 @@ header_pages:
   - tags.md
   - books.md
   - tech.md
+  - startup-ideas.md
 
 # Build settings
 plugins:
