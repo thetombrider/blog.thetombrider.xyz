@@ -3,7 +3,7 @@ layout: post
 title:  "Sbobinator: my first app"
 date:   2025-03-10
 categories: [coding]
-tags: [python, openai, speech-to-text, diarization, ai, ml]
+tags: [python, openai, speech-to-text, diarization, ai, ml, projects]
 ---
 
 I'm a consultant. As such, I hate taking notes in meetings.
