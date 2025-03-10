@@ -304,27 +304,11 @@
 }
 
 /**
- * Quote callout
+ * Simplified quote
  */
-.quote-callout {
-  background-color: #f0efe9;
-  border-left: 5px solid $brand-color;
+.quote {
+  color: $grey-color;
+  text-align: center;
   margin: $spacing-unit 0;
-  padding: $spacing-unit;
   font-style: italic;
-  color: $grey-color-dark;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 4px;
-
-  blockquote {
-    margin: 0;
-    padding: 0;
-
-    footer {
-      margin-top: $spacing-unit * 0.5;
-      font-size: $small-font-size;
-      color: $grey-color;
-      text-align: right;
-    }
-  }
 }
