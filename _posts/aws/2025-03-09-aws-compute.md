@@ -7,12 +7,13 @@ tags: [cloud, computing]
 ---
 
 AWS has got many different compute options:
+
 - EC2 or Elastic Compute Cloud: this is the VM offering of AWS. VMs are virtual computers running in the cloud. Basically like running a server at home, but with the benefits of the cloud: scalability, availability, low overhead, no maintenance, and pay-as-you-go pricing. 
 
 - Container Services: ECS and EKS. These are services to run Docker containers on AWS. 
     - With ECS the containers run on a cluster of EC2 instances (VMs), for which the user is responsible for provisioning, 
     - with EKS they run on a Kubernetes cluster, managed by AWS.
-
+    
 - Serverless: Fargate, Lambda. 
 
     Serverless is a type of service where the user only has to maintain the application and everything else is managed by AWS, from the OS up all the way to updates, patches, scalability, availability, and so on.
