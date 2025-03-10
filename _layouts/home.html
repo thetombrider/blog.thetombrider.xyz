@@ -7,8 +7,14 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
+  <!-- Add the simplified quote section here -->
+  <div class="quote">
+  "What you don't have you don't need it now."
+  </div>
+
   {{ content }}
 
+  <h2>Posts</h2>
   <ul>
     {% for post in site.posts %}
       <li>
@@ -17,10 +23,5 @@ layout: default
       </li>
     {% endfor %}
   </ul>
-  
-   <!-- Add the simplified quote section here -->
-   <div class="quote">
-    "What you don't have you don't need it now."
-  </div>
 
 </div>
