@@ -6,7 +6,7 @@ permalink: /about/
 
 > *Note: just like me, this page is a living document. It won't probably be the same for more than 15 days in a row.*
 
-> *On the quote in the home page: I really like that quote from U2 because I think that being aware and grateful of what you have and thinking twice about ***if something you want is something you need*** helps putting things such as career, money, and success in the right perspective.*
+> *On the quote in the home page: I really like that quote from U2 because I think that being aware and grateful of what you have and thinking twice about **if something you want is something you need** helps putting things such as career, money, and success in the right perspective.*
 
 Hi, i'm **Tommy**. 
 
