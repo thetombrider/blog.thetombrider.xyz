@@ -13,19 +13,36 @@ I'm interested in entrepreneurship, innovation and tech, so that's what I read a
 
 These are the books I plan on reading in 2025:
 
-- [X] Sprint - Knapp
-- [ ] The Right It - Savoia
-- [ ] The Mom Test - Fitzpatrick
-- [ ] Lean Startup - Ries
+### Startups / Product Management / Entrepreneurship
+
+- [X] Sprint - Jake Knapp
+- [ ] The Right It - Alberto Savoia
+- [ ] The Mom Test - Rob Fitzpatrick
+- [ ] Lean Startup - Eric Ries
+- [ ] When Kale and Coffee Compete
+- [ ] Business Model Generation - Alex Osterwalder
+
+### General self improvement
+
 - [ ] Design Your Life
-- [ ] Deep Work - Newport
-- [ ] The Theoretical Minimum - Susskind
+- [ ] Deep Work - Cal Newport
 - [ ] Algorithms to live by
-- [ ] Fundamentals of Data Engineering
-- [ ] The Great Mental Models - Parrish
+- [ ] The Great Mental Models - Shane Parrish
 - [ ] A system for writing
-- [ ] Algorithms to live by
 - [ ] Come fare e ricevere critiche (How to express and receive criticism)
+
+### Physics
+
+- [ ] The Theoretical Minimum - Leonard Susskind
+
+### Data Engineering
+
+- [ ] Fundamentals of Data Engineering
+
+### Cloud Infrastructure
+
+- [ ] Solutions Architect Handbook
+
 
 I'll progressively update the list as I read the books or add new ones.
 

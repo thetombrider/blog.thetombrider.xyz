@@ -4,6 +4,8 @@ title: Tags
 permalink: /tags/
 ---
 
+This page is dynamically generated based on my posts.
+
 {% for tag in site.tags %}
   <h3>{{ tag[0] }}</h3>
   <ul>
