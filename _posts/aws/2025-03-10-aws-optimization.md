@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "AWS Monitoring Solutions: CloudWatch"
+title:  "AWS Solution Optimization: ELB and Auto Scaling"
 date:   2025-03-10
 categories: [aws]
 tags: [cloud, optimization]
