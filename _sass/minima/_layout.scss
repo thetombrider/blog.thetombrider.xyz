@@ -302,6 +302,8 @@
   padding: $spacing-unit;
   font-style: italic;
   color: $grey-color-dark;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
 
   blockquote {
     margin: 0;

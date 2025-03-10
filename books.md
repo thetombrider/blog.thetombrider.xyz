@@ -5,7 +5,7 @@ date:   2025-03-10
 categories: [books]
 tags: [books]
 ---
-### **2025 Reading List**
+### 2025 Reading List
 
 This year i'm trying to read more books. I used to be quite an avid reader when I was in school but since university I almost completely stopped reading books (arguably I was reading a lot of papers and textbooks, so there's that, but still), so I'm trying to improve this in 2025.
 
