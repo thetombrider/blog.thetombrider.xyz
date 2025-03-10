@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:  "2025 Reading list"
 date:   2025-03-10
 categories: [books]

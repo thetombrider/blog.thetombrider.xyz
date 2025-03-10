@@ -37,7 +37,7 @@ header_pages:
   - categories.md
   - tags.md
   - archive.md
-  - _posts/books/2025-03-10-books-for-2025.md
+  - books.md
 
 # Build settings
 plugins:
