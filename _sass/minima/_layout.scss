@@ -200,9 +200,18 @@
 }
 
 .post-link {
-  display: block;
+  display: inline; // Ensure the link is inline
   @include relative-font-size(1.5);
   margin-bottom: 5px; // Adjust this value to reduce the spacing
+}
+
+.post-title {
+  display: flex; // Ensure the title and hash are on the same line
+  align-items: center;
+}
+
+.hash {
+  margin-right: 5px; // Adjust spacing between hash and title
 }
 
 .post-tags {
@@ -221,7 +230,7 @@
   letter-spacing: -1px;
   line-height: 1;
   text-align: left;
-  border-bottom: 2px solid $brand-color; // Add underline
+  // border-bottom: 2px solid $brand-color; // Remove underline
 
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
@@ -231,7 +240,7 @@
 .home .post-title {
   @include relative-font-size(2);
   text-align: left;
-  border-bottom: 2px solid $brand-color; // Add underline
+  // border-bottom: 2px solid $brand-color; // Remove underline
 }
 
 .post-content {
