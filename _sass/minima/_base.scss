@@ -81,9 +81,11 @@ figcaption {
  */
 ul, ol {
   margin-left: $spacing-unit;
+  list-style-position: outside;
 }
 
 li {
+  margin-bottom: $spacing-unit * 0.25; // Adjust this value to reduce the spacing
   > ul,
   > ol {
     margin-bottom: 0;
