@@ -185,14 +185,18 @@
   @include relative-font-size(1.75);
 }
 
-.post-list,
-ul {
+.post-list {
   margin-left: 0;
   list-style: none;
 
   > li {
     margin-bottom: $spacing-unit * 0.25; // Adjust this value to reduce the spacing
   }
+}
+
+ul {
+  margin-left: 0;
+  list-style: none;
 }
 
 .post-meta {
@@ -277,6 +281,11 @@ ul {
   ul, ol {
     margin-left: $spacing-unit;
     list-style-position: outside;
+    list-style-type: disc; // Explicitly set bullet point style
+  }
+
+  ol {
+    list-style-type: decimal; // Explicitly set number style for ordered lists
   }
 
   li {
@@ -284,6 +293,7 @@ ul {
     > ul,
     > ol {
       margin-bottom: 0;
+      margin-top: $spacing-unit * 0.25; // Add spacing above nested lists
     }
   }
 }
