@@ -191,6 +191,18 @@
   
   > li {
     margin-bottom: $spacing-unit * 0.25; // Adjust this value to reduce the spacing
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  a {
+    flex-grow: 1;
+    margin-right: $spacing-unit * 0.5;
+  }
+
+  span {
+    white-space: nowrap;
   }
 }
 

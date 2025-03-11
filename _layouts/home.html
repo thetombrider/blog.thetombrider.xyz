@@ -16,11 +16,9 @@ layout: default
 
   <ul class="post-list">
     {% for post in site.posts %}
-      <li>
+      <li style="display: flex; justify-content: space-between; align-items: center;">
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        <div style="display: flex; justify-content: space-between;">
-          <span>{{ post.date | date: "%Y-%m-%d" }}</span>
-        </div>
+        <span>{{ post.date | date: "%Y-%m-%d" }}</span>
       </li>
     {% endfor %}
   </ul>

@@ -16,7 +16,7 @@ These are the books I plan on reading in 2025:
 ### Startups / Product Management / Entrepreneurship
 
 - [X] Sprint - Jake Knapp
-- [ ] The Right It - Alberto Savoia
+- [ ] The Right It - Alberto Savoia - **Currently Reading**
 - [ ] The Mom Test - Rob Fitzpatrick
 - [ ] Lean Startup - Eric Ries
 - [ ] When Kale and Coffee Compete
