@@ -24,7 +24,7 @@ Because of this, I'm also the president and founder of [Savona Startup](https://
 
 **Why this site**
 
-On this blog I mainly document my mental ramblings but most importantly my journey as a professional and life-long learner (lol I'm 25, who the fuck am I kidding?). 
+On this blog I mainly document my mental ramblings but most importantly my journey as a professional and life-long learner (lol I'm 25, who the fuck am I kidding?). It's kind of a [Digital Garden](https://nesslabs.com/digital-garden-set-up). Truth is, I didn't even know what a digital garden was up until a couple of days ago, but since deciding to keep my notes on a site I kind of went down a rabbit hole and found out that what I was doing actually had a name and was "a thing". 
 
 Currently I'm learning about Coding, Data Engineering and Cloud Infrastructure, specifically AWS, so that's what I'm going to be writing about, but that might change in the future. 
 
