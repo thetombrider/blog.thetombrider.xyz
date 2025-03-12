@@ -56,7 +56,7 @@ Each application has different needs and thus needs a different storage solution
 - Some apps need access to shared files and require a file system, like content repositories, media stores or home directories. This is a use case for File Storage.
 - Applications developed in the cloud often take advantage of object storage's scalability and metadata characteristics. Object storage solutions are ideal for building modern applications from the beginning that require scale and flexibility.  Amazon S3 is offered with different storage classes or tiers to match your price, access, and availability requirements. Amazon S3 Glacier, for example, is used for archival storage at a lower cost per gigabyte (GB).
 
-### Identifying the Right Storage Solution in the CLoud
+### Identifying the Right Storage Solution in the Cloud
 
 The optimal storage solution depends on a series of factors:
 

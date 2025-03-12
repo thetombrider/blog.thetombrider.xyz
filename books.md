@@ -43,6 +43,9 @@ These are the books I plan on reading in 2025:
 
 - [ ] Solutions Architect Handbook
 
+### History, Sociology and Politics
+
+- [ ] Requiem for the American Dream: The 10 Principles of Concentration of Wealth and Power - Noam Chomsky
 
 I'll progressively update the list as I read the books or add new ones.
 
