@@ -21,7 +21,7 @@ My tech stack:
 
 ### Services
 
-- Google Workspac
+- Google Workspace
 - iCloud
 - Backblaze
 
