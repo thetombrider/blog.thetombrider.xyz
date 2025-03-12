@@ -24,5 +24,4 @@ My tech stack:
 - Google Workspac
 - iCloud
 - Backblaze
-- 
 

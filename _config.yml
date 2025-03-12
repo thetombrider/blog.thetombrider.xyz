@@ -25,6 +25,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.thetombrider.xyz" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: tommaso-minuto
 github_username:  thetombrider
+spotify_username: thetombrider
 
 # Configurazione blog
 language: en                           # Lingua del sito
