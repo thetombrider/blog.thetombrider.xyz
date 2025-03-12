@@ -143,14 +143,80 @@ Use Cases:
 
 Amazon FSx for Windows File Server is an AWS fully managed file system for Windows environments. FSx for Windows File Server supports the Server Message Block (SMB) protocol.
 
+Amazon FSx for Windows File Server provides fully managed Microsoft Windows file servers, backed by a fully native Windows file system.
+
+FSx for Windows File Server is built on Windows Server. The service provides a rich set of administrative features that include user file restore, user quotas, and access control lists (ACLs).
+
+You can access SMB file shares from Linux and macOS, any application. You can access the storage regardless of operating system. 
+
+To control user access, Amazon FSx integrates with your on-premises Microsoft Active Directory and with AWS Microsoft Managed AD.
+
+FSx for Windows File Server can connect your file system to the following AAWS services or resources:
+  - Amazon Elastic Compute Cloud (Amazon EC2)
+  - Amazon Elastic Container Service (Amazon ECS)
+  - VMware Cloud on AWS
+  - Amazon WorkSpaces
+  - Amazon AppStream 2.0 instances
+
+FSx for Windows File Server provides storage of up to 64 TB per file system. You can use Distributed File System (DFS) namespaces to create shared common namespaces spanning multiple FSx for Windows File Server file systems. Consequently, you can scale out storage and throughput to virtually unlimited levels.
+
 #### File Storage: Amazon FSx for NetApp ONTAP
 
 Amazon FSx for NetApp ONTAP is the NetApp ONTAP operating system implemented as a fully managed service. FSx for NetApp ONTAP support iSCSI for block storage, NFS protocol for POSIX-compliant access, and SMB protocol for Windows-compatible access.
+
+FSx for ONTAP offers high-performance file storage that’s broadly accessible from Linux, Windows, and macOS compute instances via the industry-standard NFS, SMB, and iSCSI protocols. It allows you to use ONTAP’s widely adopted data management capabilities. You can create snapshots, clones, and replication, with the click of a button. In addition, it provides low-cost storage capacity that’s fully elastic and virtually unlimited in size. FSx for ONTAP supports data compression and deduplication to help you further reduce storage costs.
+
+FSx for ONTAP offers high-performance SSD storage with sub-millisecond latencies, and makes it quick and easy to manage your data by enabling you to snapshot, clone, and replicate your files with the click of a button. It also automatically tiers your data to lower-cost, elastic storage, eliminating the need to provision or manage capacity and allowing you to achieve SSD levels of performance for your workload while only paying for SSD storage for a small fraction of your data.
+
+FSx for ONTAP use cases are similar to those for Amazon EFS, Amazon FSx for Windows File Server, and Amazon FSx for OpenZFS. The key difference is that they apply multi-protocol access for applications and workflows using NFS and SMB protocols with an option for block storage using the iSCSI protocol. If you plan to use applications with multi-protocol access or migrated your existing NetApp ONTAP storage, FSx for ONTAP is your logical choice.
 
 #### File Storage: Amazon FSx for OpenZFS
 
 Amazon FSx for OpenZFS is an AWS fully managed implementation of the Open Zettabyte File System (ZFS). FSx for OpenZFS supports NFS and SMB protocols for a wide range of application implementations. 
 
+FSx for OpenZFS delivers one of the lowest file storage latencies available in the cloud.
+
+FSx for OpenZFS is built on the AWS Graviton family of processors, supporting up to 12.5 gigabytes per second (GB/s) of throughput and up to 1 million IOPS for frequently accessed cached data.
+
+FSx for OpenZFS use cases are similar to those for Amazon EFS, Amazon FSx for Windows File Server, and Amazon FSx for NetApp ONTAP. The key difference is that they apply multi-protocol access for applications and workflows using NFS and SMB protocols. If you plan to use applications with multi-protocol access or migrated your existing OpenZFS storage, FSx for OpenZFS is your logical choice.
+
 ### Object Storage: Amazon S3
 
+Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance.
 
+Amazon S3 has a simple web service interface that you can use to store and retrieve any amount of data from anywhere on the web. Amazon S3 uses standards-based REST APIs designed to work with any internet-development toolkit. 
+
+Data is stored as objects within resources called buckets. A single object can be up to 5 terabytes in size.
+
+S3 features include the following capabilities:
+
+- Appending metadata tags to objects
+- Moving and storing data across different S3 storage classes
+- Configuring and enforcing data access controls
+- Securing data against unauthorized users
+- Running big data analytics
+- Monitoring data at the object or bucket levels
+- Viewing storage usage and activity trends across your organization
+
+Amazon S3 has a flat, non-hierarchical structure. All objects are stored in S3 buckets and can be organized with shared names called prefixes.
+
+Performance scales per prefix, so you can use as many prefixes as you need in parallel to achieve the required throughput. You can have a virtually unlimited number of prefixes. Amazon S3 performance supports at least 3,500 requests per second to add data and 5,500 requests per second to retrieve data. Each S3 prefix can support these request rates, making it simple to increase performance significantly.
+
+Storage Classes
+
+Amazon S3 offers a range of storage classes designed for different use cases. Every S3 storage class supports a specific data access level at corresponding costs or geographic location. S3 storage classes include:
+
+- S3 Standard for general-purpose storage of frequently accessed data
+- S3 Standard-Infrequent Access (S3 Standard-IA) for less frequently accessed data
+- S3 One Zone-Infrequent Access (S3 One Zone-IA) for less frequently accessed data and lower availability requirements
+- S3 Intelligent-Tiering for data with unknown or changing access patterns
+- Amazon S3 Glacier Instant Retrieval for lower-cost archival storage that may require retrieval at any time.  
+- Amazon S3 Glacier Flexible Retrieval for low-cost archival storage with retrieval time from minutes to hours
+- Amazon S3 Glacier Deep Archive (S3 Glacier Deep Archive) for lowest-cost storage with retrieval times up to 12 hours
+- Amazon S3 on Outposts for on-premises hybrid data storage and satisfying data residency requirements. 
+
+Amazon S3 also offers capabilities to manage your data throughout its lifecycle. When an S3 lifecycle policy is set, your data transfers to a different storage class automatically without any changes to your application.
+
+You can use S3 Storage Class Analysis to monitor access patterns across objects to discover data that should be moved to lower-cost storage classes. Then, you can use this information to configure an S3 Lifecycle policy that makes the data transfer. 
+
+S3 Lifecycle policies can also be used to expire objects at the end of their lifecycles.
