@@ -14,12 +14,11 @@ layout: default
 
   {{ content }}
 
-  <h1>Posts</h1>
   <ul class="post-list">
     {% for post in site.posts %}
-      <li>
+      <li style="display: flex; justify-content: space-between; align-items: center;">
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        <span> - {{ post.date | date: "%B %d, %Y" }}</span>
+        <span>{{ post.date | date: "%Y-%m-%d" }}</span>
       </li>
     {% endfor %}
   </ul>

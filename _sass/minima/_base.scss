@@ -139,6 +139,8 @@ blockquote {
   padding-left: $spacing-unit * 0.5;
   @include relative-font-size(1.125);
   letter-spacing: -1px;
+  font-family: $base-font-family;
+  font-weight: 300;
   font-style: italic;
 
   > :last-child {

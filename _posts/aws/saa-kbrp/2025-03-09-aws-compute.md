@@ -3,7 +3,7 @@ title: "Intro to AWS Compute Options: EC2, ECS, EKS, Fargate, Lambda"
 layout: post
 date: 2025-03-09
 categories: [aws]
-tags: [cloud, computing]
+tags: [cloud, computing, notes]
 ---
 
 AWS has got many different compute options:

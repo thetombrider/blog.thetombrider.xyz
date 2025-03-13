@@ -19,3 +19,9 @@ My tech stack:
 
 - Company Issued HP Elitebook - 1 TB - 8 GB RAM (I think)
 
+### Services
+
+- Google Workspace
+- iCloud
+- Backblaze
+

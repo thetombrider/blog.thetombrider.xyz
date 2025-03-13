@@ -3,7 +3,7 @@ title: "AWS Networking: VPCs, route tables, internet gateway, ACLs and security 
 layout: post
 date: 2025-03-09
 categories: [aws]
-tags: [cloud, security, networking]
+tags: [cloud, security, networking, notes]
 ---
 
 AWS is made of a ton of different services and resources. These resources need to talk to each other. How? Via networks of course, just like any other resource on the internet.
