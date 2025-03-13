@@ -8,6 +8,8 @@ tags: [data, data engineering]
 
 ## Foundations - Roles and Concepts
 
+There are many people in an organization who are involved with data. These are the main roles that can be found in an organization with their respective responsibilities and areas of interest.
+
 | Personas              | Responsibility                                                                 | Areas of Interest |
 |-----------------------|-----------------------------------------------------------------------------|-------------------|
 | Chief Data Officer (CDO) | Builds a culture of using data to solve problems and accelerate innovation | Data quality, data governance, data and artificial intelligence (AI) strategy, evangelizing the value of data to the business |
