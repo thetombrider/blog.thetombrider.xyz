@@ -3,7 +3,7 @@ layout: post
 title:  "AWS Solution Optimization: ELB and Auto Scaling"
 date:   2025-03-10
 categories: [aws]
-tags: [cloud, optimization]
+tags: [cloud, optimization, notes]
 ---
 
 To handle demand it's possible to automate the scaling of our solutions. Scaling manually is not sustainable as spinning instances up instances and down is repetitive and time consuming. Also, managing replication and redirection of requests manually can get very complex very quickly. 

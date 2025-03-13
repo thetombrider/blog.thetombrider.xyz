@@ -3,7 +3,7 @@ title: "Fundamentals of Analytics on AWS: Part 1"
 layout: post
 date: 2025-03-13
 categories: [aws]
-tags: [data, data engineering]
+tags: [data, data engineering, notes]
 ---
 ## Analytics Concepts
 ### Analytics

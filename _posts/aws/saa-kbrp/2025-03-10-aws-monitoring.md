@@ -3,7 +3,7 @@ layout: post
 title:  "AWS Monitoring Solutions: CloudWatch"
 date:   2025-03-10
 categories: [aws]
-tags: [cloud, monitoring]
+tags: [cloud, monitoring, notes]
 ---
 Monitoring is a crucial feature that allows to see how the different components of an architecture are handling operational workloads on real time.
 

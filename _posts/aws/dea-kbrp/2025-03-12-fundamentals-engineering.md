@@ -3,7 +3,7 @@ title: "Data Engineering on AWS: Foundations"
 layout: post
 date: 2025-03-12
 categories: [aws]
-tags: [data, data engineering]
+tags: [data, data engineering, notes]
 ---
 
 ## Foundations - Roles and Concepts
