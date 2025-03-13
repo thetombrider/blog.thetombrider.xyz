@@ -3,7 +3,7 @@ layout: post
 title:  "I have a consistency problem"
 date:   2025-05-20
 categories: [essays]
-tags: []
+tags: [essays]
 ---
 
 For the longest, I've had a consistency problem.
