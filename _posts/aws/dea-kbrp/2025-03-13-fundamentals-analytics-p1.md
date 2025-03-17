@@ -45,22 +45,73 @@ Definitions
 
 #### Volume
 
+Every organization's infrastructure has to support large amounts of scalable and durable data storage and must also be able to gather this data from many different sources. 
+
 #### Variety
+
+Data can assume various source types:
+- Structured
+  - Relational DBs
+- Semistructured
+  - NoSQL DBs
+- Unstructured
+  - Files
+
+##### Row-based and columnar data storage
+
+Data within a database should be indexed to allow a query to quickly find the data it needs to produce a result. Indexes control the way data is physically stored on disk. They physically group records into a predictable order based on the key values within the table. This plays a huge part in the speed and efficiency of queries.
+
+Both OLTP and OLAP systems can use either indexing method. However, there are advantages to choosing the method that is best suited to the types of queries that will be run the majority of the time.
+
+Row based is better for transactional systems with random reads and returning full rows, while columnar storage is best for analytical processing and sequential reads and returning aggregations of column values.
 
 #### Velocity
 
+There are four velocities for processing data:
+- Scheduled
+  - Scheduled batch processing represents data that is processed in a very large volume on a regularly scheduled basis. For instance, once a week or once a day. It is generally the same amount of data with each load, making these workloads predictable.
+- Periodic
+  - Periodic batch processing is a batch of data that is processed at irregular times. These workloads are often run after a certain amount of data has been collected. This can make them unpredictable and hard to plan around.
+- Near real-time
+  - Near real-time processing represents streaming data that is processed in small individual batches. The batches are continuously collected and then processed within minutes of the data generation.
+- Real-time
+  - Real-time processing represents streaming data that is processed in very small individual batches. The batches are continuously collected and then processed within milliseconds of the data generation.
+
 #### Veracity
+
+##### Data integrity 
+
+Data changes over time. As it is transferred from one process to another, and through one system to another, there are opportunities for the integrity of the data to be negatively impacted. You must ensure that you maintain a high level of certainty that the data you are analyzing is trustworthy. Data veracity is contingent on the integrity of the data. Data integrity is all about making sure your data is trustworthy. You need to make sure it has integrity, and that the entire data chain is secure and free from compromise. 
+
+##### Transforming data with the ETL process
+
+Extract, transform, and load (ETL) is the process of collecting data from raw data sources and transforming that data into a common type. This new data is loaded into a final location to be available for analysis and inspection.
+
+The purpose of the ETL process is as follows:
+- To ensure the data has the required accuracy, precision, and depth
+- To bring together data from different sources to gain a complete picture
+- To build purpose-built data sets to answer key business questions
+
+##### ELT Process Steps
+
+In modern cloud-based environments, the extract, load, and transform (ELT) approach loads data as it is. It then transforms it at a later stage, depending on the use case and analytics requirements. 
+
+The steps are similar to those in the ETL process, performed in a different order, but with similar results.
+
+The ELT process requires more definition at the beginning. Analytics must be involved from the start to define target data types, structures, and relationships.
+
+These are the three steps of ELT:
+
+- Extract raw data from various sources.
+- Load it in its natural state into a data warehouse or data lake.
+- Transform it as needed while in the target system.
+
+With ELT, all data cleansing, transformation, and enrichment occur within the data warehouse. You can interact with and transform the raw data as many times as needed
 
 #### Value
 
-## AWS Services for Analytics
+##### Querying and reporting
 
-### AWS Services for Volume
+Analytical reporting is used to transform data into actionable information that empowers organizations to make informed decisions, optimize processes, and achieve strategic objectives.
 
-### AWS Services for Variety
-
-### AWS Services for Velocity
-
-### AWS Services for Veracity
-
-### AWS Services for Value
+Analytics exists to help you get the most value and useful insights from raw data. With reporting tools, you can create visual representations of data, such as charts, graphs, and dashboards. Visualization makes complex data more accessible and understandable, helping users quickly identify trends, patterns, and anomalies. 
